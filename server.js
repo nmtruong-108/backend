@@ -4,7 +4,7 @@ import multer from 'multer';
 import { CloudinaryStorage } from 'multer-storage-cloudinary';
 import { v2 as cloudinary } from 'cloudinary';
 import cors from 'cors';
-import connectDB from './config/db.js'; // Ensure your db file uses ES6 export
+import { connectDB } from './config/db.js'; // Ensure your db file uses ES6 export
 import foodRouter from './routes/foodRoute.js';
 import userRouter from './routes/userRoute.js';
 import cartRouter from './routes/cartRoute.js';
